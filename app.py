@@ -24,6 +24,7 @@ import streamlit.components.v1 as components
 ######################################
 
 pathicono="c:/produccion/resources/img/"
+pathicono="./resources/img/"
 icono = Image.open(pathicono+'logo1.jpeg')
 
 st.set_page_config(
