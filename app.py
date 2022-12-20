@@ -38,6 +38,7 @@ st.set_page_config(
 st.write('<style>div.block-container{padding-top:1.8rem;}</style>', unsafe_allow_html=True)
 #Put your logo here:
 ruta = "c:/produccion/resources/img/"
+ruta = "./resources/img/"
 cargalogo = ruta +'logo7.png'
 
 def img_to_bytes(img_path):
