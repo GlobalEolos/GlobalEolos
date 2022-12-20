@@ -1,5 +1,6 @@
 altair==4.2.0
 bokeh==2.4.3
+bloxs==1.0.2
 colorama==0.4.5
 colorcet==3.0.1
 coloredlogs==15.0.1

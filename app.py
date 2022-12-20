@@ -15,7 +15,7 @@ from streamlit_autorefresh import st_autorefresh
 from streamlit_autorefresh import st_autorefresh
 # from streamlit_aggrid import AgGrid
 import streamlit.components.v1 as components
-#from bloxs import B
+from bloxs import B
 
 
 #st.experimental_rerun()
