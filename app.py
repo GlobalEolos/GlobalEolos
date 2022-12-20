@@ -1,4 +1,3 @@
-
 import time  # to simulate a real time data, time loop
 from PIL import Image
 import numpy as np  # np mean, np random
@@ -16,7 +15,7 @@ from streamlit_autorefresh import st_autorefresh
 from streamlit_autorefresh import st_autorefresh
 # from streamlit_aggrid import AgGrid
 import streamlit.components.v1 as components
-from bloxs import B
+#from bloxs import B
 
 
 #st.experimental_rerun()
@@ -90,13 +89,7 @@ df = pd.read_csv("avocado-updated-2020.csv")
 
 # — PANDAS ANALYSIS
 df.drop_duplicates(inplace = True) # drop duplicates
-st.write(""" #### Total Bags of Avocados Sold Through 2015–2020 #### """)
-# to calculate the total number of bags sold each year
 
-st.write("""
- #### Total Bags of Avocados Sold Through 2015–2020 ####
- """
-)
 
 #2015
 yr_15 = round(df[df['year'] == 2015]['total_bags'].sum())#2016
